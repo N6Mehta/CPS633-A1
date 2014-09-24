@@ -40,7 +40,7 @@ int main()
   	FILE *file;
   	FILE *fileout;
  	 file = fopen("server","r");
-	 file = fopen("lol","w");
+	 fileout = fopen("lol","w");
 	 if(file == NULL)
 	 {
 	    printf("Error opening file");
